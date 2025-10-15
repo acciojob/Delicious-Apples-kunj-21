@@ -1,1 +1,139 @@
 /* your code here */
+body {
+  background-color: #4bddaa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product {
+  display: flex;
+  height: 600px;
+  width: 600px;
+  border-radius: 10px;
+  background-color: white;
+}
+.controls {
+  display: flex;
+  justify-content: space-between;
+}
+.photo-container {
+  height: 00px;
+}
+
+.product__photo {
+  height: 500px;
+  margin-top: 45px;
+  position: relative;
+  right: 40px;
+  background-color: white;
+  border-radius: 10px;
+  width: 300px;
+  z-index: 1;
+}
+
+.photo-main {
+  padding: 10px;
+  background-color: greenyellow;
+  color: white;
+  border-radius: 10px;
+  z-index: 10;
+  height: 350px;
+  position: relative;
+}
+.photo-main > img {
+  position: relative;
+  z-index: 1;
+  right: 120px;
+  margin-top: -10px;
+}
+.photo-album > ul {
+  display: flex;
+  justify-content: end;
+  list-style: none;
+  gap: 10px;
+  padding: 20px;
+}
+.photo-album > ul > li {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  border: 2px solid #d3d3d3;
+  
+}
+
+.photo-album > ul > li > img {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+
+
+.product__info {
+  position: relative;
+  right: 20px;
+}
+.price{
+  margin: 30px 0px;
+}
+.price > span {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 100;
+  font-size: 80px;
+  color: red;
+  
+}
+.title > span {
+  color: #9f9e9e;
+}
+.variant > h3 {
+  color: #9f9e9e;
+}
+.variant > ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  gap: 10px;
+}
+.variant > ul > li {
+  padding: 5px;
+}
+.variant > ul > li > img {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  padding: 5px;
+}
+#bord{
+   border: 2px solid #d3d3d3;
+}
+
+.description {
+  position: relative;
+}
+.description > p {
+  color: #9f9e9e;
+  font-weight: 800;
+  font-size: 16px;
+}
+.description > ul {
+  position: relative;
+  left: 25px;
+}
+.button {
+  margin-top: 20px;
+  width: 100%;
+}
+.button > button {
+  padding: 18px 32px;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+  font-weight: 600;
+  font-size: 17px;
+}
